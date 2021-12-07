@@ -13,53 +13,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-rect {
-  fill: #f1356d;
-  fill-opacity: 0.8;
-}
-
-rect:hover {
-  fill-opacity: 1;
-}
-
-.axis {
-  font-size: smaller;
-}
-
-/* tooltip styling */
-
-#tooltip {
-  position: absolute;
-  width: 200px;
-  height: auto;
-  padding: 10px;
-  background-color: #f8a7bf;
-  -webkit-border-raadius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-  pointer-events: none;
-}
-
-#tooltip.hidden {
-  display: none;
-}
-
-#tooltip p {
-  margin: 0;
-  font-family: sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  color: black;
-}
-
-.highlight {
-  fill: #da7190;
-  opacity: 0.7;
-}
-
 /* navbar styling */
 
 .navbar {
@@ -72,6 +25,7 @@ rect:hover {
 }
 
 .navbar h1 {
+  margin-left: 2vw;
   color: #003272;
 }
 
@@ -97,4 +51,9 @@ span {
 .label {
   display: inline-block;
   width: 120px;
+}
+
+.tekst-top {
+  max-width: 50vw;
+  margin-left: 2vw;
 }

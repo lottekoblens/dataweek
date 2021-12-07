@@ -1,17 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import TekstTop from './components/TekstTop'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar/>
-        <p>
-          Test
-        </p>
-        
+        <Navbar />
       </header>
+      <TekstTop />
     </div>
   );
 }
