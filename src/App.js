@@ -1,6 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import TekstTop from './components/TekstTop'
+import TrainAnimation from './components/TrainAnimation';
+import Dataset from './components/DataSet';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <Navbar />
       </header>
       <TekstTop />
+      <TrainAnimation />
+      <Dataset />
     </div>
   );
 }

@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       {/* give nav a class of navbar */}
-      <h1>Waar ga je naartoe?</h1>
+      <h1>Waar gaat men naartoe?</h1>
     </nav>
   );
 }
