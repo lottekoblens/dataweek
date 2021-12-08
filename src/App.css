@@ -82,11 +82,17 @@ span {
 }
 
 @keyframes mymove {
-  from {
+  0% {
     left: -20%;
   }
-  to {
+  40% {
     left: 100%;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: -120%;
   }
 }
 
