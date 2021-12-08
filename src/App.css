@@ -17,6 +17,7 @@ body {
   background-color: #eec900;
   padding: 20px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   max-width: 100%;
   margin: 0 auto;
@@ -40,6 +41,12 @@ body {
 
 .navbar a:hover {
   color: #003272;
+}
+
+.navbar img {
+  max-width: 20vw;
+  max-height: 10vh;
+  margin-right: 2vw;
 }
 
 span {
