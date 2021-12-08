@@ -3,6 +3,8 @@
 }
 
 body {
+  overflow-x: hidden;
+
   margin: 0;
   padding: 0;
   background-color: white;
@@ -58,10 +60,23 @@ span {
   width: 120px;
 }
 
-.tekst-top {
+.tekst-inleiding {
   max-width: 50vw;
-  margin-left: 2vw;
+  margin-left: 25vw;
   text-align: center;
+}
+
+.tekst-top {
+  display: flex;
+  flex-direction: row;
+  max-width: 98vw;
+  margin: 2em 2vw 0 2vw;
+  text-align: center;
+}
+
+.tekst-top div img {
+  max-width: 45vw;
+  margin-left: 2vw;
 }
 
 #train {
@@ -73,6 +88,7 @@ span {
 }
 
 #Dataset {
+  margin-top: 2em;
   margin-left: 50vw;
   margin-right: 2vw;
   text-align: center;
@@ -93,10 +109,13 @@ span {
     left: -20%;
   }
   40% {
-    left: 100%;
+    left: 40%;
   }
   50% {
-    left: 50%;
+    left: 100%;
+  }
+  80% {
+    left: 40%;
   }
   100% {
     left: -120%;
@@ -104,12 +123,28 @@ span {
 }
 
 @media (max-width: 1000px) {
-  .tekst-top {
+  .tekst-inleiding {
     max-width: 95vw;
+    margin-left: 2vw;
+    text-align: center;
+  }
+
+  .tekst-top {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    margin: 2em 2vw 0 2vw;
+    text-align: center;
+  }
+
+  .tekst-top div img {
+    max-width: 90vw;
+    margin-left: 2vw;
   }
 
   #Dataset {
     margin-left: 2vw;
+    margin-top: 2em;
   }
   #Dataset p {
     max-width: 95vw;

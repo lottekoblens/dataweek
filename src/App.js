@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import TekstTop from './components/TekstTop'
 import TrainAnimation from './components/TrainAnimation';
 import Dataset from './components/DataSet';
+import Inleiding from './components/Inleiding'
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <TekstTop />
+      <Inleiding />
       <TrainAnimation />
+      <TekstTop />
       <Dataset />
     </div>
   );
