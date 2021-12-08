@@ -4,7 +4,6 @@
 
 body {
   overflow-x: hidden;
-
   margin: 0;
   padding: 0;
   background-color: white;
@@ -21,12 +20,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .navbar h1 {
-  margin-left: 2vw;
+  margin-left: 1vw;
   color: #003272;
 }
 
@@ -35,7 +34,7 @@ body {
 }
 
 .navbar a {
-  margin-left: 16px;
+  margin-right: 2vw;
   text-decoration: none;
   padding: 6px;
   color: #003272;
@@ -43,12 +42,6 @@ body {
 
 .navbar a:hover {
   color: #003272;
-}
-
-.navbar img {
-  max-width: 20vw;
-  max-height: 10vh;
-  margin-right: 2vw;
 }
 
 span {
@@ -61,9 +54,16 @@ span {
 }
 
 .tekst-inleiding {
-  max-width: 50vw;
-  margin-left: 25vw;
+  display: flex;
+  flex-direction: row;
+  max-width: 95vw;
   text-align: center;
+  margin-left: 2em;
+}
+
+.tekst-inleiding img {
+  max-width: 45vw;
+  margin: 1em 0 0 1em;
 }
 
 .tekst-top {
@@ -74,9 +74,33 @@ span {
   text-align: center;
 }
 
-.tekst-top div img {
+.tekst-top img {
+  max-width: 45vw;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.tekst-onderzoek {
+  display: flex;
+  flex-direction: row;
+  max-width: 98vw;
+  margin-left: 2vw;
+  margin-bottom: 2em;
+}
+
+.tekst-onderzoek div {
+  min-width: 40vw;
+}
+
+.tekst-onderzoek div img {
+  margin-top: 2em;
   max-width: 45vw;
   margin-left: 2vw;
+}
+
+#vraagteken {
+  max-width: 10vw;
+  max-height: 20vh;
 }
 
 #train {
@@ -85,23 +109,6 @@ span {
   margin-top: 5%;
   animation: mymove 10s infinite;
   position: relative;
-}
-
-#Dataset {
-  margin-top: 2em;
-  margin-left: 50vw;
-  margin-right: 2vw;
-  text-align: center;
-}
-
-#Dataset img {
-  height: 40vh;
-  padding: 1em;
-  max-width: 100%;
-}
-
-#Dataset p {
-  max-width: 50vw;
 }
 
 @keyframes mymove {
@@ -122,32 +129,166 @@ span {
   }
 }
 
+#onderzoek-button {
+  background-color: #003272;
+  border: none;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 2em 0;
+}
+
+#onderzoek-button a {
+  color: #eec900;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.conclusie {
+  display: flex;
+  flex-direction: row;
+  max-width: 95vw;
+  margin-left: 2vw;
+}
+
+.conclusie img {
+  max-width: 50vw;
+}
+
+.conclusie div:nth-of-type(2) {
+  margin-left: 2vw;
+}
+
+.gifje {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 95vw;
+  padding-left: 2vw;
+  margin-bottom: 2em;
+}
+
+.gifje img {
+  max-width: 50vw;
+  margin-right: 2em;
+}
+
+.gifje p {
+  text-align: center;
+  max-width: 32vw;
+  margin-bottom: 1em;
+}
+
+#p-gif {
+  max-width: 60vw;
+  margin-left: 2vw;
+}
+
+#kopje-gif {
+  margin-left: 2vw;
+}
+
+#legenda {
+  max-width: 15vw;
+}
+
+#piechart {
+  max-width: 35vw;
+  max-height: 30vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em;
+  background-color: #eec900;
+  width: 100%;
+}
+
 @media (max-width: 1000px) {
   .tekst-inleiding {
+    display: flex;
+    flex-direction: column;
     max-width: 95vw;
     margin-left: 2vw;
     text-align: center;
+  }
+  .tekst-inleiding img {
+    max-width: 90vw;
+    margin-left: 2vw;
   }
 
   .tekst-top {
     display: flex;
     flex-direction: column;
     max-width: 90vw;
-    margin: 2em 2vw 0 2vw;
+    margin: 2em;
     text-align: center;
   }
 
-  .tekst-top div img {
+  .tekst-top img {
+    max-width: 90vw;
+    margin: 0;
+  }
+
+  .tekst-onderzoek {
+    display: flex;
+    flex-direction: column;
+    max-width: 95vw;
+    margin-left: 2vw;
+    text-align: left;
+    margin-bottom: 2em;
+  }
+
+  .tekst-onderzoek div img {
+    margin-top: 2em;
     max-width: 90vw;
     margin-left: 2vw;
   }
 
-  #Dataset {
-    margin-left: 2vw;
-    margin-top: 2em;
-  }
-  #Dataset p {
+  .gifje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 95vw;
+    padding-left: 2vw;
+  }
+
+  .gifje img {
+    max-width: 95vw;
+  }
+
+  .gifje p {
     text-align: center;
+    max-width: 95vw;
+  }
+
+  #p-gif {
+    max-width: 95vw;
+    margin-left: 2vw;
+  }
+
+  #piechart {
+    max-width: 80vw;
+    max-height: 50vh;
+  }
+
+  #legenda {
+    max-width: 25vw;
+  }
+
+  .conclusie {
+    display: flex;
+    flex-direction: column;
+    max-width: 95vw;
+    margin-left: 2vw;
+  }
+
+  .conclusie img {
+    max-width: 95vw;
+  }
+
+  .conclusie div:nth-of-type(2) {
+    margin-left: 0;
   }
 }

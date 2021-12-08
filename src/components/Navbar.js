@@ -2,8 +2,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       {/* give nav a class of navbar */}
-      <h1>Waar gaat men naartoe?</h1>
-      <img src="../person.png"></img>
+      <h1>Bestemming onbekend</h1>
+      <div className="links">
+        <a href="/">Introductie</a>
+        <a href="/onderzoek">Onderzoek</a>
+      </div>
     </nav>
   );
 }

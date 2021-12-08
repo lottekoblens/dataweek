@@ -1,21 +1,22 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import TekstTop from './components/TekstTop'
-import TrainAnimation from './components/TrainAnimation';
-import Dataset from './components/DataSet';
-import Inleiding from './components/Inleiding'
+import { BrowserRouter, Link, Route, Switch} from 'react-router-dom';
+import Home from './Home.js'
+import Navbar from './components/Navbar.js'
+import Onderzoek from './Onderzoek.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
-      <Inleiding />
-      <TrainAnimation />
-      <TekstTop />
-      <Dataset />
-    </div>
+    <BrowserRouter>
+        <Navbar/>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/onderzoek">
+            <Onderzoek />
+          </Route>
+        </Switch>
+      </BrowserRouter>
   );
 }
 

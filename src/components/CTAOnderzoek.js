@@ -11,13 +11,11 @@ const TekstTop = () => {
             Maar kunnen we toch zien waar ze naartoe gaan?
             </p>
 
-            <p>Hieronder zijn de resultaten van ons onderzoek te zien, maar nu is de vraag
-            of deze resultaten overeenkomen met de daadwerkelijke cijfers?
-            </p>
+            <button id="onderzoek-button"><a href="/onderzoek">Bekijk het onderzoek!</a></button>
             </div>
-            <div>
+            
                 <img src="../treinstation.jpeg"></img>
-            </div>
+            
         </div>
     );
 }
