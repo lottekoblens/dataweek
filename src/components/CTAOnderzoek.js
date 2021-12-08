@@ -1,6 +1,7 @@
 const TekstTop = () => {
     return (
         <div className="tekst-top">
+             <img src="../treinstation.jpeg"></img>
             <div>
             {/* give nav a class of navbar */}
             <h2>Kan je aan het uiterlijk zien waar mensen naartoe gaan met de trein?</h2>
@@ -14,7 +15,7 @@ const TekstTop = () => {
             <button id="onderzoek-button"><a href="/onderzoek">Bekijk het onderzoek!</a></button>
             </div>
             
-                <img src="../treinstation.jpeg"></img>
+               
             
         </div>
     );
