@@ -57,7 +57,6 @@ span {
   display: flex;
   flex-direction: row;
   max-width: 95vw;
-  text-align: center;
   margin-left: 2em;
 }
 
@@ -71,7 +70,6 @@ span {
   flex-direction: row;
   max-width: 98vw;
   margin: 2em 2vw 0 2vw;
-  text-align: center;
 }
 
 .tekst-top img {
@@ -211,8 +209,8 @@ footer {
     flex-direction: column;
     max-width: 95vw;
     margin-left: 2vw;
-    text-align: center;
   }
+
   .tekst-inleiding img {
     max-width: 90vw;
     margin-left: 2vw;
@@ -223,7 +221,6 @@ footer {
     flex-direction: column;
     max-width: 90vw;
     margin: 2em;
-    text-align: center;
   }
 
   .tekst-top img {
