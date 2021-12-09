@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
-  color: #003272;
+  color: black;
   margin-left: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
@@ -15,7 +15,7 @@ body {
 /* navbar styling */
 
 .navbar {
-  background-color: #eec900;
+  background-color: #e5f8fc;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -25,8 +25,8 @@ body {
 }
 
 .navbar h1 {
-  margin-left: 1vw;
-  color: #003272;
+  margin-left: 0.5vw;
+  color: black;
 }
 
 .navbar .links {
@@ -37,11 +37,11 @@ body {
   margin-right: 2vw;
   text-decoration: none;
   padding: 6px;
-  color: #003272;
+  color: black;
 }
 
 .navbar a:hover {
-  color: #003272;
+  color: black;
 }
 
 span {
@@ -56,13 +56,20 @@ span {
 .tekst-inleiding {
   display: flex;
   flex-direction: row;
-  max-width: 95vw;
-  margin-left: 2em;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90vw;
+  margin-left: 2vw;
+  margin-top: 5em;
+}
+
+.tekst-inleiding a img {
+  max-width: 25vw;
+  margin-left: 3vw;
 }
 
 .tekst-inleiding img {
-  max-width: 45vw;
-  margin: 1em 0 0 1em;
+  max-width: 60vw;
 }
 
 .tekst-top {
@@ -70,10 +77,11 @@ span {
   flex-direction: row;
   max-width: 98vw;
   margin: 2em 2vw 0 2vw;
+  align-items: center;
 }
 
 .tekst-top img {
-  max-width: 45vw;
+  max-width: 55vw;
   margin-right: 2em;
   margin-bottom: 1em;
 }
@@ -127,16 +135,17 @@ span {
   }
 }
 
-#onderzoek-button {
-  background-color: #003272;
+#CTA-button {
+  background-color: black;
   border: none;
   padding: 1em;
   border-radius: 1em;
-  margin: 2em 0;
+  margin: 9em 0;
 }
 
-#onderzoek-button a {
-  color: #eec900;
+#CTA-button a {
+  font-size: 1.5em;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -144,8 +153,9 @@ span {
 .pie {
   display: flex;
   flex-direction: row;
-  max-width: 95vw;
+  max-width: 90vw;
   margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 .pie div img {
@@ -154,6 +164,7 @@ span {
 
 .pie div:nth-of-type(2) {
   margin-left: 5vw;
+  margin-right: 2vw;
   max-width: 40vw;
 }
 
@@ -162,22 +173,27 @@ span {
   max-height: 40vh;
 }
 
+.tek {
+  display: flex;
+  flex-direction: row;
+}
+
 .gifje {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 95vw;
   margin-bottom: 2em;
 }
 
 .gifje div img {
-  max-width: 70vw;
+  max-width: 50vw;
   margin-left: 2em;
   margin-top: 2em;
 }
 
 .gifje p {
-  max-width: 60vw;
+  max-width: 25vw;
   margin-bottom: 1em;
   margin-left: 2vw;
 }
@@ -205,18 +221,18 @@ span {
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  text-align: center;
   padding: 0.5em;
-  background-color: #eec900;
+  background-color: #e5f8fc;
   width: 100%;
+  margin-top: 5em;
 }
 
 @media (max-width: 1000px) {
   .tekst-inleiding {
     display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 95vw;
     margin-left: 2vw;
   }
@@ -226,15 +242,28 @@ footer {
     margin-left: 2vw;
   }
 
+  .tekst-inleiding a img {
+    max-width: 40vw;
+    margin-top: 3em;
+    margin-left: auto;
+    align-self: right;
+  }
+
+  #CTA-button {
+    margin-top: 2em;
+    max-width: 30vw;
+    padding: 1em;
+  }
+
   .tekst-top {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     max-width: 90vw;
     margin: 2em;
   }
 
   .tekst-top img {
-    max-width: 90vw;
+    max-width: 60vw;
     margin: 0;
   }
 

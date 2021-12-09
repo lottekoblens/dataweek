@@ -2,16 +2,21 @@ const Piechart = () => {
     return (
         <div className="pie">
             <div>
-            <h2>Wie zitten er in de trein?</h2>
-                <img id="piechart" src="./pie.png"></img>
-            </div>
-            <div>
-                <h2>De echte cijfers</h2>
+                <h2>Wat zegt het CBS?</h2>
                 <p>Volgens het CBS wordt het openbaar vervoer het meest
                 gebruikt door mensen die naar hun werk gaan. En daarna zijn het de studenten die
                 op weg zijn naar school of naar huis.
             </p>
-                <img id="dataset" src="../dataset1.png"></img>
+                <img id="dataset" src="../3d-pie.png"></img>
+            </div>
+            <div>
+                <h2>Conclusie</h2>
+                <p>Uit ons onderzoek is gebleken dat op basis van uiterlijk
+                wij verwachten dat de meeste reizigers van de trein studenten zijn. Dit komt niet overeen met
+                de cijfers van het CBS. Het CBS laat namelijk zien dat de meeste reizigers mensen zijn die
+                onderweg zijn van of naar hun werk.
+            </p>
+            <img src="./vergelijking.png"></img>
             </div>
         </div>
     );
