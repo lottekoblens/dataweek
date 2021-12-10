@@ -5,7 +5,7 @@ const Inleiding = () => {
         
         <div className="tekst-inleiding">
             <img src="./kaart-wit.png"></img>
-            <a href="/onderzoek"><img src="pijltje-8.png"></img></a>
+            <a href="/onderzoek"><img src="new-pijl.png"></img></a>
         </div>
         
         </div>

@@ -29,6 +29,7 @@ body {
 }
 
 .navbar .links {
+  margin-right: 2vw;
   margin-left: auto;
 }
 
@@ -180,7 +181,7 @@ span {
 .gifje {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 95vw;
   margin-bottom: 2em;
 }
@@ -191,18 +192,22 @@ span {
   margin-top: 2em;
 }
 
-.gifje p {
-  max-width: 25vw;
-  margin-bottom: 1em;
-  margin-left: 2vw;
-}
-
 #kopje-gif {
   margin-left: 2vw;
 }
 
+#waffle {
+  margin-right: 20vw;
+}
+
+#tekst-gif {
+  margin-left: 2vw;
+  max-width: 40vw;
+}
+
 #legenda {
-  margin-top: 5em;
+  margin-top: 1em;
+  margin-left: 5vw;
   max-width: 40vw;
 }
 
@@ -298,14 +303,19 @@ footer {
     max-width: 95vw;
   }
 
+  #tekst-gif {
+    margin-left: 2vw;
+    max-width: 90vw;
+  }
+
   #piechart {
     max-width: 80vw;
     max-height: 50vh;
   }
 
   #legenda {
-    margin-top: 1em;
-    max-width: 70vw;
+    margin-left: 6vw;
+    max-width: 80vw;
   }
 
   .pie {

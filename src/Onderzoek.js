@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Gif from './components/Gif';
 import Conclusie from './components/Conclusie';
 import Piechart from './components/piechart';
-import Pie from './components/Pie';
+import Waffle from './components/Waffle'
 
 function test() {
   return (
