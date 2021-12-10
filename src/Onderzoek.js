@@ -1,10 +1,10 @@
 import './App.css';
 import TrainAnimation from './components/TrainAnimation';
-import TopOnderzoek from './components/TopOnderzoek';
 import Footer from './components/Footer';
 import Gif from './components/Gif';
 import Conclusie from './components/Conclusie';
 import Piechart from './components/piechart';
+import Pie from './components/Pie';
 
 function test() {
   return (
@@ -12,6 +12,7 @@ function test() {
       <Gif />
       <TrainAnimation />
       <Piechart />
+      <Pie />
       <Footer />
     </div>
   );

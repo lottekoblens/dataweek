@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "Veldnaam": "Werkenden",
+      "nummer": 18.3
+    },
+    {
+      "Veldnaam": "Student",
+      "nummer": 13
+    },
+    {
+      "Veldnaam": "Werkloos",
+      "nummer": 6.6
+    },
+    {
+      "Veldnaam": "Arbeidsongeschikt",
+      "nummer": 5.6
+    },
+    {
+      "Veldnaam": "Gepensioneerd",
+      "nummer": 3.7
+    },
+    {
+      "Veldnaam": "Overige",
+      "nummer": 5
+    }
+  ]
+}

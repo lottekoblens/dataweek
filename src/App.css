@@ -6,8 +6,8 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   margin-left: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
@@ -15,7 +15,6 @@ body {
 /* navbar styling */
 
 .navbar {
-  background-color: #e5f8fc;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -26,7 +25,7 @@ body {
 
 .navbar h1 {
   margin-left: 0.5vw;
-  color: black;
+  color: #00d5ff;
 }
 
 .navbar .links {
@@ -37,11 +36,11 @@ body {
   margin-right: 2vw;
   text-decoration: none;
   padding: 6px;
-  color: black;
+  color: #00d5ff;
 }
 
 .navbar a:hover {
-  color: black;
+  color: #00d5ff;
 }
 
 span {
@@ -222,8 +221,9 @@ span {
 
 footer {
   text-align: center;
+  border-top: 0.01em solid #00d5ff;
   padding: 0.5em;
-  background-color: #e5f8fc;
+  color: #00d5ff;
   width: 100%;
   margin-top: 5em;
 }
