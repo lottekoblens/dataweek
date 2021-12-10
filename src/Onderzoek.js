@@ -12,7 +12,6 @@ function test() {
       <Gif />
       <TrainAnimation />
       <Piechart />
-      <Pie />
       <Footer />
     </div>
   );
